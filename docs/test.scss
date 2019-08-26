@@ -1,0 +1,22 @@
+@import "../dist/webkit-sassui-selection.scss";
+
+.test-webkit-sassui-selection {
+  border: 1px solid red;
+}
+
+body {
+  background: #eee;
+}
+
+.container {
+  width: 60%;
+  margin: 50px auto;
+  h1 {
+    text-align: center;
+  }
+  p {
+    margin-bottom: 20px;
+    font-size: 16px;
+    line-height: 22px;
+  }
+}

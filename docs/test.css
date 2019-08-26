@@ -1,0 +1,29 @@
+/*webkit-sassui-selection Start*/
+::selection {
+  background: #9c27b0;
+  color: #fff;
+}
+
+/*webkit-sassui-selection End*/
+.test-webkit-sassui-selection {
+  border: 1px solid red;
+}
+
+body {
+  background: #eee;
+}
+
+.container {
+  width: 60%;
+  margin: 50px auto;
+}
+
+.container h1 {
+  text-align: center;
+}
+
+.container p {
+  margin-bottom: 20px;
+  font-size: 16px;
+  line-height: 22px;
+}

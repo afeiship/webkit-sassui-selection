@@ -1,0 +1,9 @@
+/*webkit-sassui-selection Start*/
+::-moz-selection {
+  background: #9c27b0;
+  color: #fff; }
+::selection {
+  background: #9c27b0;
+  color: #fff; }
+
+/*webkit-sassui-selection End*/
