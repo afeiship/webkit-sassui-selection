@@ -1,20 +1,19 @@
-/*webkit-sassui-selection Start*/
-$webkit-sassui-selection-options: (
+/*wsui-selection Start*/
+$wsui-selection-options: (
   background: #9c27b0,
   color: #fff
 ) !default;
 
 ::selection {
   $background: map-get(
-    $map: $webkit-sassui-selection-options,
+    $map: $wsui-selection-options,
     $key: background
   );
   $color: map-get(
-    $map: $webkit-sassui-selection-options,
+    $map: $wsui-selection-options,
     $key: color
   );
   background: $background;
   color: $color;
 }
-
-/*webkit-sassui-selection End*/
+/*wsui-selection End*/

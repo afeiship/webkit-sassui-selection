@@ -1,0 +1,28 @@
+/*!
+ * name: @jswork/wsui-selection
+ * description: Customize page selection.
+ * homepage: https://github.com/afeiship/wsui-selection
+ * version: 1.0.0
+ * date: 2021-03-07 11:24:31
+ * license: MIT
+ */
+
+/*wsui-selection Start*/
+$wsui-selection-options: (
+  background: #9c27b0,
+  color: #fff
+) !default;
+
+::selection {
+  $background: map-get(
+    $map: $wsui-selection-options,
+    $key: background
+  );
+  $color: map-get(
+    $map: $wsui-selection-options,
+    $key: color
+  );
+  background: $background;
+  color: $color;
+}
+/*wsui-selection End*/

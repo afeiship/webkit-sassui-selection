@@ -1,0 +1,17 @@
+/*!
+ * name: @jswork/wsui-selection
+ * description: Customize page selection.
+ * homepage: https://github.com/afeiship/wsui-selection
+ * version: 1.0.0
+ * date: 2021-03-07 11:24:31
+ * license: MIT
+ */
+/*wsui-selection Start*/
+::-moz-selection {
+  background: #9c27b0;
+  color: #fff; }
+::selection {
+  background: #9c27b0;
+  color: #fff; }
+
+/*wsui-selection End*/
